@@ -1,10 +1,11 @@
 # AI Health Coach
-
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green)
-![OpenAI](https://img.shields.io/badge/OpenAI-Responses%20API-black)
+![OpenAI](https://img.shields.io/badge/OpenAI-Responses%20API-yellow)
 ![Status](https://img.shields.io/badge/Status-Working%20Prototype-success)
-![Mobile](https://img.shields.io/badge/Mobile--First-Yes-teal)
+![Mobile](https://img.shields.io/badge/Mobile--First-Yes-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-teal)
+
 
 A **mobile-first AI health & fitness coach** that turns daily check-ins into clear, practical action plans.
 
