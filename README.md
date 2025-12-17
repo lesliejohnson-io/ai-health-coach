@@ -31,11 +31,12 @@ This is intentionally simple, as a foundation for more advanced coaching, analyt
 
 ## 📱 Mobile Screenshots
 
-### Check-in form
-<img src="screenshots/form.png" alt="Daily check-in form" width="300">
+<div style="display: flex; gap: 24; align-items: flex-start; flex-wrap: wrap;">
+  <img src="screenshots/form.png" alt="Daily check-in form" width="300">
+  
+  <img src="screenshots/response.png" alt="AI-generated daily plan" width="300">
+</div>
 
-### AI-generated daily plan
-<img src="screenshots/response.png" alt="AI-generated daily plan" width="300">
 
 ---
 
