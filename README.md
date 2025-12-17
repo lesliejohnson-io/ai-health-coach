@@ -1,4 +1,8 @@
-# AI Health Coach
+<h1>
+  <img src="static/logo.svg" alt="AI Health Coach logo" width="36" style="vertical-align: middle; margin-right: 10px;" />
+  AI Health Coach
+</h1>
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Responses%20API-yellow)
