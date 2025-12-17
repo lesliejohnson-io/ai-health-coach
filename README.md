@@ -1,11 +1,11 @@
 <h1>
-  <img src="static/logo.svg" alt="AI Health Coach logo" width="36" style="vertical-align: middle; margin-right: 10px;" />
+  <img src="static/logo.svg" alt="AI Health Coach logo" width="40" style="vertical-align: middle; margin-right: 10px;" />
   AI Health Coach
 </h1>
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green)
-![OpenAI](https://img.shields.io/badge/OpenAI-Responses%20API-yellow)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-1cdaff)
+![OpenAI](https://img.shields.io/badge/OpenAI-Responses%20API-1cdaff)
 ![Status](https://img.shields.io/badge/Status-Working%20Prototype-success)
 ![Mobile](https://img.shields.io/badge/Mobile--First-Yes-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-teal)
@@ -17,7 +17,7 @@ Built to explore how **AI-driven coaching** can support consistency, nervous-sys
 
 ---
 
-## ✨ What it does
+## What it does
 
 - Daily check-in (sleep, protein, steps, training, energy, mood)
 - Generates a **personalized daily plan** using AI
