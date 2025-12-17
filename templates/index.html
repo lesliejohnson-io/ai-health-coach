@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Health Coach</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="icon" href="/static/favicon.ico" />
+    <link rel="apple-touch-icon" href="/static/logo-192.png" />
+</head>
+<body>
+  <main class="container">
+   <header class="header">
+        <img src="/static/logo.svg" alt="Logo" class="logo" />
+        <h1>AI Health Coach</h1>
+        <p class="sub">Daily check-in → clear plan → one small win.</p>
+    </header>
+
+
+    <section class="card">
+      <h2>Today’s Check-In</h2>
+
+      <form id="checkinForm">
+        <div class="grid">
+          <label>
+            Sleep (hrs)
+            <input inputmode="decimal" type="number" step="0.1" min="0" max="24" name="sleep_hours" placeholder="7.5" />
+          </label>
+
+          <label>
+            Protein (g)
+            <input inputmode="numeric" type="number" min="0" max="500" name="protein_g" placeholder="120" />
+          </label>
+
+          <label>
+            Steps
+            <input inputmode="numeric" type="number" min="0" max="100000" name="steps" placeholder="8000" />
+          </label>
+
+          <label>
+            Energy (1–10)
+            <input inputmode="numeric" type="number" min="1" max="10" name="energy_1_10" placeholder="7" />
+          </label>
+
+          <label>
+            Mood (1–10)
+            <input inputmode="numeric" type="number" min="1" max="10" name="mood_1_10" placeholder="7" />
+          </label>
+        </div>
+
+        <label>
+          Training (planned or done)
+          <input type="text" name="training" placeholder="Lift: Lower body + walk" />
+        </label>
+
+
+
+        <button class="btn" type="submit">
+          Get today’s plan
+        </button>
+
+        <p id="status" class="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="card" id="resultCard" hidden>
+      <h2>Your Plan</h2>
+      <div id="result"></div>
+    </section>
+
+    <section class="card subtle">
+      <details>
+        <summary>View Health Plan (from health_plan.md)</summary>
+        <pre id="planText" class="pre"></pre>
+      </details>
+    </section>
+  </main>
+
+  <script src="/static/app.js?v=2"></script>
+
+</body>
+</html>
